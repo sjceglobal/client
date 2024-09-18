@@ -6,6 +6,7 @@ TagManager:
   tags:
   - bg
   - char
+  - enemy
   layers:
   - Default
   - TransparentFX

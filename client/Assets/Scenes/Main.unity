@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5842870ce5310459a3899e3aeb8430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _anim: {fileID: 0}
+  _anim: {fileID: 564747575}
 --- !u!54 &564747578
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 664887380}
   m_Layer: 0
   m_Name: monster
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

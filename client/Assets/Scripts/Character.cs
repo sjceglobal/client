@@ -30,6 +30,7 @@ public class Character : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         Debug.Log(other.transform);
+        GameManager.instance.SingletonTest();
         //Debug.Log(other == "monster");
 		if (other.transform.tag == "enemy") {
 			Debug.Log("====Character Trigger start====");
@@ -38,4 +39,9 @@ public class Character : MonoBehaviour
             _anim.Play("attack");
 		}
 	}
+
+    public void SingletonTest2()
+    {
+        Debug.Log("SingletonTest");
+    }
 }
